@@ -11,6 +11,7 @@ Descritivo: Compare se duas variáveis são iguais em valor
 *******************************************************************************/
 $ABC = rand(1,2);
 $CBA = rand(1,2);
+echo $ABC.$CBA . "\n";
 echo ($ABC == $CBA) ?"Ambas as variaveis são iguais":" Elas são diferentes";
  // geralmente eu faria o negócio do if/elseif/else, mas eu vi isso, achei intrigante e quis tentar
 ?>
