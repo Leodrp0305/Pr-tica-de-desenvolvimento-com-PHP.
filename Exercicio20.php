@@ -11,9 +11,9 @@ Descritivo: Verifique se uma variável é maior ou igual a 100
 *******************************************************************************/
  $Uma_Variavel = rand(0 , 200);
  if ($Uma_Variavel >= 100) {
-    echo "A variavel é maior que 100";
+    echo  $Uma_Variavel . " é maior que 100";
  } elseif ( $Uma_Variavel <= 100) {
-    echo "A variavel é menor que 100";
+    echo  $Uma_Variavel . " é menor que 100";
  } else {
     echo "Error";
  }
