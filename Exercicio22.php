@@ -6,7 +6,7 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
-Data: 28 de Agosto de 2025
+Data: 29 de Agosto de 2025
 Descritivo: Compare se null é igual a false
 *******************************************************************************/
 $negativo = null;
@@ -17,6 +17,7 @@ if ($negativo == $falso) {
 } else {
     echo "Null e False são diferentes";
 }
+
 
 
 
