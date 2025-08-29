@@ -6,7 +6,7 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
-Data: 28 de Agosto de 2025
+Data: 29 de Agosto de 2025
 Descritivo: Teste se uma variável é diferente de null
 *******************************************************************************/
 
@@ -17,4 +17,5 @@ if ($Variavel_Qualquer !== $nulo) {
 } else{
     echo "erro";
 }
+
 ?>
