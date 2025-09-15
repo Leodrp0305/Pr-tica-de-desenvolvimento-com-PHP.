@@ -6,6 +6,8 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
+ 25011023-2 - Lucas Coelho Suero
+ 25125961-2 - Elias Borges Neckel
 Data: 01 de Setembro de 2025
 Descritivo: Crie uma condição que verifique se um triângulo é válido
 *******************************************************************************/
@@ -15,5 +17,6 @@ $a = 2;
  $c = 3;
  echo ($a + $b > $c && $a + $c > $b && $b + $c > $a) ? 
 "Triângulo ($a, $b, $c) é válido" : "Triângulo ($a, $b, $c) é inválido";
+
 
     ?>
