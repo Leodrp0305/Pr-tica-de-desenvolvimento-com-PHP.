@@ -6,10 +6,13 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
+ 25011023-2 - Lucas Coelho Suero
+ 25125961-2 - Elias Borges Neckel
 Data: 01 de Setembro de 2025
 Descritivo: Crie uma expressão ternária que verifique se um ano é bissexto
 *******************************************************************************/
 $ano = 2022;
  echo ($ano%400 == 0)? "O ano de $ano é bissexto" :
  (($ano%4 == 0 && $ano%100 != 0) ? "O ano é bissexto":"O ano não é bissexto");
+
     ?>
