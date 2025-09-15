@@ -6,6 +6,8 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
+ 25011023-2 - Lucas Coelho Suero
+ 25125961-2 - Elias Borges Neckel
 Data: 01 de Setembro de 2025
 Descritivo: Faça um programa que converta temperatura entre Celsius e Fahrenheit baseado em uma escolha
 *******************************************************************************/
@@ -22,4 +24,5 @@ if ($Medida == "F"){
 } else {
     echo "Medida desconhecida";
 }
+
     ?>
