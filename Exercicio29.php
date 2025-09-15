@@ -6,6 +6,8 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
+ 25011023-2 - Lucas Coelho Suero
+ 25125961-2 - Elias Borges Neckel
 Data: 29 de Agosto de 2025
 Descritivo: Teste se uma string não está vazia E tem mais de 3 caracteres
 *******************************************************************************/
@@ -21,4 +23,5 @@ if (strlen($String_qualquer) > 0) {
 } else {
     echo "A string está vazia";
 }
+
 ?>
