@@ -6,6 +6,8 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
+ 25011023-2 - Lucas Coelho Suero
+ 25125961-2 - Elias Borges Neckel
 Data: 01 de Setembro de 2025
 Descritivo: Crie uma condição que verifique se um ano é bissexto
 *******************************************************************************/
@@ -20,4 +22,5 @@ if ($ano%400 == 0) {
 } else {
     echo " não é um ano bissexto";
 }
+
 ?>
