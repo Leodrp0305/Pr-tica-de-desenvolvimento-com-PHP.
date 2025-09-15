@@ -6,6 +6,8 @@ Professor: Flores
 Turma: ESOFT-2A
 Componentes:
  25185655-2 - Leonardo Kenji Tanida Soares
+ 25011023-2 - Lucas Coelho Suero
+ 25125961-2 - Elias Borges Neckel
 Data: 01 de Setembro de 2025
 Descritivo: Escreva um script que determine o maior entre três números
 *******************************************************************************/
@@ -27,4 +29,5 @@ switch (true) {
     echo "É um empate numerico entre $num1, $num2, $num3";
     break;
 }
+
     ?>
