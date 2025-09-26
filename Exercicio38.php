@@ -14,11 +14,11 @@ Descritivo: Faça um programa que converta temperatura entre Celsius e Fahrenhei
 $Temperatura = 240;
 $Medida = "F"; //Coloque F para Fahrenheit e C para Celsius.
 if ($Medida == "F"){
-   $r = ($Temperatura-32)/9;
+   $r = ($Temperatura-32)*5/9;
    $r = number_format($r, 2);
    echo $r . "°C é a temperatura de $Temperatura °F em celsius";
 } elseif ($Medida == "C") {
-    $r = ($Temperatura/5);
+    $r = ($Temperatura*9/5)+32;
     $r = number_format($r, 2);
     echo $r . "°F é a temperatura de $Temperatura °C em Fahrenheit";
 } else {
@@ -26,3 +26,4 @@ if ($Medida == "F"){
 }
 
     ?>
+
